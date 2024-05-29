@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/ajayumredkar78/WebserverTFCode.git'
+                git branch: 'main', url: 'https://github.com/ajayumredkar/terraform-pipeline.git'
             }
         }
         stage('Terraform init') {
